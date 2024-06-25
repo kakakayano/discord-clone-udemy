@@ -2,7 +2,7 @@ import React from 'react'
 import "./Sidebar.scss"
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
-import SidebarCannel from './SidebarCannel';
+import SidebarChannel from './SidebarChannel';
 
 
 
@@ -34,7 +34,7 @@ const Sidebar = () => {
                         <AddIcon className="sidebarAddIcon"   /*onClick={addChannel}*/ />
                     </div>
                     <div className='sidebarChannelList'>
-                        <SidebarCannel />
+                        <SidebarChannel />
                     </div>
                 </div>
             </div>
